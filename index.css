@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: -webkit-linear-gradient(90deg, #ffffff, #d0e3ff, #eaeaee, #faf2e5);
+    background: linear-gradient(90deg, #ffffff, #d0e3ff, #eaeaee, #faf2e5);
+}
+
+.cont {
+    background-color: #F0FFFF;
+    border-radius: 15px;
+}
+
+.pantalla {
+    width: 100%;
+}
+
+.h1 {
+    height: 50px;
+}
+
+button {
+    width: 70px;
+    height: 65px;
+}
+
+.borrar {
+    width: 70px;
+    height: 50px;
+}

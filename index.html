@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>calculadora Básica</title>
+</head>
+
+<body>
+    <div class="d-flex flex-column cont align-items-center p-3">
+
+        <div class="d-flex gap-2 pantalla">
+            <input id="pantalla" type="text" class="form-control mb-4 h1" readonly>
+            <!-- <h1 class="form-control d-flex justify-content-center align-items-center mb-4">Hola!</h1> -->
+            <button class="borrar btn btn-danger">CE</button>
+        </div>
+
+        <div class="d-flex gap-4 mb-3">
+            <button id="siete" class="num btn btn-info">7</button>
+            <button id="ocho" class="num btn btn-info">8</button>
+            <button id="nueve" class="num btn btn-info">9</button>
+            <button class="btn btn-info">/</button>
+        </div>
+        <div class="d-flex gap-4 mb-3">
+            <button id="cuatro" class="num btn btn-info">4</button>
+            <button id="cinco" class="num btn btn-info">5</button>
+            <button id="seis" class="num btn btn-info">6</button>
+            <button class="btn btn-info">*</button>
+        </div>
+        <div class="d-flex gap-4 mb-3">
+            <button id="uno" class="num btn btn-info">1</button>
+            <button id="dos" class="num btn btn-info">2</button>
+            <button id="tres" class="num btn btn-info">3</button>
+            <button class="btn btn-info">-</button>
+        </div>
+        <div class="d-flex gap-4">
+            <button class="btn btn-info">0</button>
+            <button class="btn btn-info">.</button>
+            <button class="btn btn-info">+</button>
+            <button class="btn btn-info">=</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
